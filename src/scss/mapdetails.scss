@@ -1,0 +1,16 @@
+@import "./__main";
+
+.details-header {
+  .location,
+  .date-time,
+  .tsunami,
+  .more-info,
+  .magnitude {
+    padding: $standardSpace 0;
+  }
+
+  .date-time {
+    padding-bottom: $standardSpace * 2;
+    border-bottom: 1px solid rgba(#000000, 20%);
+  }
+}
