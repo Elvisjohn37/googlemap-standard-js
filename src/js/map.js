@@ -1,5 +1,5 @@
 import "src/scss/map.scss";
-import { getEarthquakeList, getSelectedLocation } from "./requests";
+import { getEarthquakeList } from "./requests";
 import { formatDate } from "./helper";
 import { setMapDetails } from "./mapdetails";
 
@@ -85,8 +85,7 @@ const initMarkers = (features) => {
       })(marker)
     );
 
-    google.maps.event.addDomListener(
-      boxText,
+    boxText.addEventListener(
       "click",
       () => setMapDetails(feature.properties.detail)
     );
