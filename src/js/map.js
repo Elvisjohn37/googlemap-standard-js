@@ -37,7 +37,7 @@ import { setMapDetails } from "./mapdetails";
   d[l]
     ? console.warn(p + " only loads once. Ignoring:", g)
     : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
-})({ key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly" });
+})({ key: "AIzaSyDBSAabB8xXwBFz3Qro7_hHxyhBxOgJcNg", v: "weekly" });
 
 let map;
 
